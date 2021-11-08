@@ -1,0 +1,19 @@
+{
+  "name": "homework-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firebase local serve": "firebase serve --only hosting",
+    "firebase deploy": "firebase deploy --except functions",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

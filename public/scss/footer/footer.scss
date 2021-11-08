@@ -1,0 +1,77 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100vw;
+    height: 50px;
+    //   background-color: red;
+    color: white;
+    text-align: center;
+  
+    .copyRight {
+      float: left;
+      margin-top: 15px;
+      margin-left: 40px;
+      font-family: "LatoItalic";
+      font-style: italic;
+      color: black;
+      overflow: hidden;
+      position: absolute;
+    }
+  
+    .footerLinks {
+      
+      text-align: center;
+      margin-top: 15px;
+      margin-right: 70px;
+  
+      a {
+        font-family: "LatoItalic";
+        font-style: italic;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        justify-content: space-evenly;
+        margin-right: 15px;
+      }
+    }
+    .socialMedia {
+      position: absolute;
+      float: left;
+      bottom: -15px;
+      right: -10px;
+      width: 200px;
+      height: 50px;
+  
+      // background-color: blue;
+      img {
+        width: 19px;
+        height: 19px;
+        margin-right: 40px;
+      }
+    }
+  }
+  @font-face {
+    font-family: "LatoItalic";
+    src: url("../../fonts/Lato/Lato-Italic.ttf");
+}
+
+
+  
+  @media only screen and (max-width: 1025px) {
+    .footer {
+      min-width: 100vw;
+      .copyRight {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 19px;
+      }
+      .footerLinks {
+        margin-right: 10px;
+        a {
+          font-size: 10px;
+        }
+      }
+    
+    }
+  }
